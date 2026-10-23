@@ -1,0 +1,82 @@
+{
+  "level": "A1",
+  "topics": [
+    {
+      "id": "articles",
+      "title": "Definite & Indefinite Articles",
+      "explanation_en": "French nouns have a gender (masculine/feminine) and number (singular/plural), which determines the article used.",
+      "rules": [
+        {"form": "le", "usage": "definite, masculine singular", "example": "le livre (the book)"},
+        {"form": "la", "usage": "definite, feminine singular", "example": "la table (the table)"},
+        {"form": "l'", "usage": "definite, singular before a vowel sound", "example": "l'ami (the friend)"},
+        {"form": "les", "usage": "definite, plural", "example": "les livres (the books)"},
+        {"form": "un", "usage": "indefinite, masculine singular", "example": "un livre (a book)"},
+        {"form": "une", "usage": "indefinite, feminine singular", "example": "une table (a table)"},
+        {"form": "des", "usage": "indefinite, plural", "example": "des livres (some books)"}
+      ]
+    },
+    {
+      "id": "subject_pronouns",
+      "title": "Subject Pronouns",
+      "explanation_en": "Pronouns used before a conjugated verb.",
+      "rules": [
+        {"form": "je", "usage": "I"},
+        {"form": "tu", "usage": "you (informal singular)"},
+        {"form": "il / elle / on", "usage": "he / she / one (generic)"},
+        {"form": "nous", "usage": "we"},
+        {"form": "vous", "usage": "you (formal or plural)"},
+        {"form": "ils / elles", "usage": "they (masc. / fem.)"}
+      ]
+    },
+    {
+      "id": "verb_etre",
+      "title": "Verb: être (to be) — present tense",
+      "explanation_en": "Irregular verb, one of the two most essential French verbs.",
+      "conjugation": {
+        "je": "suis", "tu": "es", "il/elle/on": "est",
+        "nous": "sommes", "vous": "êtes", "ils/elles": "sont"
+      }
+    },
+    {
+      "id": "verb_avoir",
+      "title": "Verb: avoir (to have) — present tense",
+      "explanation_en": "Irregular verb, used also to form the passé composé.",
+      "conjugation": {
+        "je": "ai", "tu": "as", "il/elle/on": "a",
+        "nous": "avons", "vous": "avez", "ils/elles": "ont"
+      }
+    },
+    {
+      "id": "regular_er_verbs",
+      "title": "Regular -ER Verbs — present tense (e.g. parler)",
+      "explanation_en": "The largest group of French verbs. Remove -er from the infinitive and add these endings.",
+      "conjugation": {
+        "je": "parle", "tu": "parles", "il/elle/on": "parle",
+        "nous": "parlons", "vous": "parlez", "ils/elles": "parlent"
+      }
+    },
+    {
+      "id": "negation",
+      "title": "Basic Negation: ne ... pas",
+      "explanation_en": "Place 'ne' before the conjugated verb and 'pas' after it.",
+      "rules": [
+        {"form": "ne + verb + pas", "example": "Je ne parle pas anglais. (I don't speak English.)"},
+        {"form": "n' + verb + pas", "usage": "before a vowel sound", "example": "Il n'est pas là. (He isn't there.)"}
+      ]
+    },
+    {
+      "id": "numbers",
+      "title": "Numbers 0–20",
+      "explanation_en": "Core numbers used in everyday speech.",
+      "rules": [
+        {"form": "zéro", "usage": "0"}, {"form": "un", "usage": "1"}, {"form": "deux", "usage": "2"},
+        {"form": "trois", "usage": "3"}, {"form": "quatre", "usage": "4"}, {"form": "cinq", "usage": "5"},
+        {"form": "six", "usage": "6"}, {"form": "sept", "usage": "7"}, {"form": "huit", "usage": "8"},
+        {"form": "neuf", "usage": "9"}, {"form": "dix", "usage": "10"}, {"form": "onze", "usage": "11"},
+        {"form": "douze", "usage": "12"}, {"form": "treize", "usage": "13"}, {"form": "quatorze", "usage": "14"},
+        {"form": "quinze", "usage": "15"}, {"form": "seize", "usage": "16"}, {"form": "dix-sept", "usage": "17"},
+        {"form": "dix-huit", "usage": "18"}, {"form": "dix-neuf", "usage": "19"}, {"form": "vingt", "usage": "20"}
+      ]
+    }
+  ]
+}

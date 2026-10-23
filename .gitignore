@@ -1,0 +1,8 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
+
+data/stories_cache/*.json
+data/audio_cache/*.mp3
