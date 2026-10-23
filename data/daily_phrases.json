@@ -1,0 +1,155 @@
+{
+  "categories": [
+    {
+      "id": "greetings",
+      "title": "Greetings & Introductions",
+      "phrases": [
+        {"fr": "Bonjour !", "en": "Hello! / Good morning!", "note": "Standard greeting until evening."},
+        {"fr": "Bonsoir !", "en": "Good evening!"},
+        {"fr": "Salut !", "en": "Hi! / Bye!", "note": "Informal, used with friends."},
+        {"fr": "Comment allez-vous ?", "en": "How are you? (formal)"},
+        {"fr": "Comment ça va ?", "en": "How's it going? (informal)"},
+        {"fr": "Je m'appelle...", "en": "My name is..."},
+        {"fr": "Enchanté(e).", "en": "Nice to meet you."},
+        {"fr": "Au revoir !", "en": "Goodbye!"},
+        {"fr": "À bientôt !", "en": "See you soon!"},
+        {"fr": "À demain !", "en": "See you tomorrow!"}
+      ]
+    },
+    {
+      "id": "politeness",
+      "title": "Politeness & Courtesy",
+      "phrases": [
+        {"fr": "S'il vous plaît.", "en": "Please. (formal/plural)"},
+        {"fr": "S'il te plaît.", "en": "Please. (informal)"},
+        {"fr": "Merci beaucoup.", "en": "Thank you very much."},
+        {"fr": "Je vous en prie.", "en": "You're welcome. (formal)"},
+        {"fr": "De rien.", "en": "You're welcome. (casual)"},
+        {"fr": "Excusez-moi.", "en": "Excuse me. (formal)"},
+        {"fr": "Pardon.", "en": "Sorry / Excuse me."},
+        {"fr": "Je suis désolé(e).", "en": "I'm sorry."},
+        {"fr": "Pas de problème.", "en": "No problem."},
+        {"fr": "Avec plaisir.", "en": "With pleasure / Gladly."}
+      ]
+    },
+    {
+      "id": "shopping",
+      "title": "Shopping",
+      "phrases": [
+        {"fr": "Combien ça coûte ?", "en": "How much does it cost?"},
+        {"fr": "C'est combien ?", "en": "How much is it?"},
+        {"fr": "Je cherche...", "en": "I'm looking for..."},
+        {"fr": "Est-ce que vous avez...?", "en": "Do you have...?"},
+        {"fr": "Je voudrais acheter ceci.", "en": "I would like to buy this."},
+        {"fr": "C'est trop cher.", "en": "It's too expensive."},
+        {"fr": "Vous acceptez la carte ?", "en": "Do you accept card?"},
+        {"fr": "Où est la caisse ?", "en": "Where is the checkout?"},
+        {"fr": "Avez-vous une taille plus petite/grande ?", "en": "Do you have a smaller/bigger size?"},
+        {"fr": "Je prends ça.", "en": "I'll take this."}
+      ]
+    },
+    {
+      "id": "dining",
+      "title": "Restaurants & Dining",
+      "phrases": [
+        {"fr": "Une table pour deux, s'il vous plaît.", "en": "A table for two, please."},
+        {"fr": "Je voudrais commander.", "en": "I would like to order."},
+        {"fr": "Qu'est-ce que vous recommandez ?", "en": "What do you recommend?"},
+        {"fr": "L'addition, s'il vous plaît.", "en": "The bill, please."},
+        {"fr": "C'était délicieux.", "en": "It was delicious."},
+        {"fr": "Je suis végétarien(ne).", "en": "I am vegetarian."},
+        {"fr": "Je suis allergique aux noix.", "en": "I am allergic to nuts."},
+        {"fr": "Un verre d'eau, s'il vous plaît.", "en": "A glass of water, please."},
+        {"fr": "C'est pour emporter.", "en": "It's to take away."},
+        {"fr": "Bon appétit !", "en": "Enjoy your meal!"}
+      ]
+    },
+    {
+      "id": "directions",
+      "title": "Asking for Directions",
+      "phrases": [
+        {"fr": "Où est la gare ?", "en": "Where is the train station?"},
+        {"fr": "Comment je peux aller à...?", "en": "How can I get to...?"},
+        {"fr": "C'est loin d'ici ?", "en": "Is it far from here?"},
+        {"fr": "Tournez à gauche / à droite.", "en": "Turn left / right."},
+        {"fr": "Allez tout droit.", "en": "Go straight ahead."},
+        {"fr": "C'est à côté de...", "en": "It's next to..."},
+        {"fr": "Je suis perdu(e).", "en": "I am lost."},
+        {"fr": "Pouvez-vous me montrer sur le plan ?", "en": "Can you show me on the map?"},
+        {"fr": "À quelle distance se trouve...?", "en": "How far is...?"},
+        {"fr": "Au coin de la rue.", "en": "At the corner of the street."}
+      ]
+    },
+    {
+      "id": "transport",
+      "title": "Transportation",
+      "phrases": [
+        {"fr": "Un billet pour Paris, s'il vous plaît.", "en": "A ticket to Paris, please."},
+        {"fr": "À quelle heure part le train ?", "en": "What time does the train leave?"},
+        {"fr": "Je voudrais réserver un taxi.", "en": "I would like to book a taxi."},
+        {"fr": "Le bus est en retard.", "en": "The bus is late."},
+        {"fr": "Où puis-je louer une voiture ?", "en": "Where can I rent a car?"},
+        {"fr": "C'est quel quai ?", "en": "Which platform is it?"},
+        {"fr": "Je dois descendre où ?", "en": "Where do I need to get off?"},
+        {"fr": "Un aller-retour, s'il vous plaît.", "en": "A round trip, please."}
+      ]
+    },
+    {
+      "id": "time_dates",
+      "title": "Time & Dates",
+      "phrases": [
+        {"fr": "Quelle heure est-il ?", "en": "What time is it?"},
+        {"fr": "Il est trois heures.", "en": "It's three o'clock."},
+        {"fr": "Quel jour sommes-nous ?", "en": "What day is it?"},
+        {"fr": "Nous sommes le 23 octobre.", "en": "It's October 23rd."},
+        {"fr": "À quelle heure commence...?", "en": "What time does... start?"},
+        {"fr": "Aujourd'hui / Demain / Hier.", "en": "Today / Tomorrow / Yesterday."},
+        {"fr": "La semaine prochaine.", "en": "Next week."},
+        {"fr": "Je suis en retard.", "en": "I am late."}
+      ]
+    },
+    {
+      "id": "emergencies",
+      "title": "Emergencies & Health",
+      "phrases": [
+        {"fr": "Au secours !", "en": "Help!"},
+        {"fr": "Appelez une ambulance !", "en": "Call an ambulance!"},
+        {"fr": "Où est l'hôpital le plus proche ?", "en": "Where is the nearest hospital?"},
+        {"fr": "J'ai besoin d'un médecin.", "en": "I need a doctor."},
+        {"fr": "Je ne me sens pas bien.", "en": "I don't feel well."},
+        {"fr": "J'ai mal à la tête / au ventre.", "en": "I have a headache / stomachache."},
+        {"fr": "Appelez la police !", "en": "Call the police!"},
+        {"fr": "J'ai perdu mon passeport.", "en": "I lost my passport."},
+        {"fr": "C'est une urgence.", "en": "It's an emergency."}
+      ]
+    },
+    {
+      "id": "small_talk",
+      "title": "Small Talk & Social",
+      "phrases": [
+        {"fr": "Quel temps fait-il ?", "en": "What's the weather like?"},
+        {"fr": "Il fait beau aujourd'hui.", "en": "The weather is nice today."},
+        {"fr": "D'où venez-vous ?", "en": "Where are you from?"},
+        {"fr": "Je viens de Turquie.", "en": "I'm from Turkey."},
+        {"fr": "Qu'est-ce que vous faites dans la vie ?", "en": "What do you do for a living?"},
+        {"fr": "C'était un plaisir de parler avec vous.", "en": "It was a pleasure talking with you."},
+        {"fr": "On reste en contact.", "en": "Let's stay in touch."},
+        {"fr": "Bonne chance !", "en": "Good luck!"}
+      ]
+    },
+    {
+      "id": "phone_internet",
+      "title": "Phone, Internet & Technology",
+      "phrases": [
+        {"fr": "Quel est le mot de passe du wifi ?", "en": "What's the wifi password?"},
+        {"fr": "Je n'ai pas de réseau.", "en": "I have no signal."},
+        {"fr": "Pouvez-vous m'appeler plus tard ?", "en": "Can you call me later?"},
+        {"fr": "Je vous envoie un message.", "en": "I'll send you a message."},
+        {"fr": "Mon téléphone est déchargé.", "en": "My phone's battery is dead."},
+        {"fr": "Pouvez-vous répéter, s'il vous plaît ?", "en": "Can you repeat, please?"},
+        {"fr": "Je ne comprends pas.", "en": "I don't understand."},
+        {"fr": "Pouvez-vous parler plus lentement ?", "en": "Can you speak more slowly?"}
+      ]
+    }
+  ]
+}

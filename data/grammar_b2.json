@@ -1,0 +1,87 @@
+{
+  "level": "B2",
+  "topics": [
+    {
+      "id": "subjonctif_avance",
+      "title": "Subjonctif Présent — Advanced Usage",
+      "explanation_en": "Beyond fixed expressions, the subjunctive is triggered by verbs/phrases of emotion, doubt, opinion (negative), and certain conjunctions.",
+      "rules": [
+        {"form": "emotion: être content/triste/surpris que", "usage": "subjective feeling", "example": "Je suis content que tu sois là."},
+        {"form": "doubt: douter que", "usage": "doubt or uncertainty", "example": "Je doute qu'il vienne."},
+        {"form": "negative opinion: ne pas penser/croire que", "usage": "opinion made uncertain by negation", "example": "Je ne pense pas qu'il ait raison."},
+        {"form": "bien que / quoique", "usage": "'although' — always followed by subjunctive", "example": "Bien qu'il soit fatigué, il continue."},
+        {"form": "pour que / afin que", "usage": "'so that' (purpose) — subjunctive", "example": "Je parle lentement pour que tu comprennes."},
+        {"form": "avant que", "usage": "'before' — subjunctive", "example": "Partons avant qu'il ne pleuve."},
+        {"form": "à moins que", "usage": "'unless' — subjunctive", "example": "On y va, à moins qu'il ne fasse mauvais."}
+      ]
+    },
+    {
+      "id": "subjonctif_irreguliers",
+      "title": "Irregular Subjunctive Verbs",
+      "explanation_en": "A small set of very common verbs with irregular subjunctive stems (some also with irregular nous/vous forms).",
+      "rules": [
+        {"form": "aller", "usage": "que j'aille, que nous allions"},
+        {"form": "faire", "usage": "que je fasse, que nous fassions"},
+        {"form": "pouvoir", "usage": "que je puisse, que nous puissions"},
+        {"form": "savoir", "usage": "que je sache, que nous sachions"},
+        {"form": "vouloir", "usage": "que je veuille, que nous voulions"},
+        {"form": "venir", "usage": "que je vienne, que nous venions"}
+      ]
+    },
+    {
+      "id": "voix_passive",
+      "title": "Passive Voice",
+      "explanation_en": "Used to emphasize the action or receiver when the agent is unknown or unimportant. Formed with être + past participle (+ par for the agent).",
+      "rules": [
+        {"form": "être + past participle", "usage": "passive construction, agrees with subject", "example": "La lettre est écrite par Marie."},
+        {"form": "par vs de", "usage": "'par' for concrete actions, 'de' for states/feelings", "example": "Il est aimé de tous. / La ville a été détruite par la guerre."},
+        {"form": "tense of être carries the tense", "usage": "passive exists in any tense", "example": "La maison sera construite l'année prochaine."}
+      ]
+    },
+    {
+      "id": "gerondif",
+      "title": "Le Gérondif",
+      "explanation_en": "Expresses simultaneity, manner, or cause ('by/while doing'). Formed with en + present participle.",
+      "rules": [
+        {"form": "en + present participle (-ant)", "usage": "simultaneous action or manner", "example": "Il a appris le français en regardant des films."},
+        {"form": "present participle formation", "usage": "nous-form of present tense minus -ons + -ant", "example": "nous parlons → en parlant"}
+      ]
+    },
+    {
+      "id": "discours_indirect",
+      "title": "Reported Speech (Discours Indirect) & Tense Backshift",
+      "explanation_en": "When reporting what someone said in the past, tenses typically shift back (sequence of tenses).",
+      "rules": [
+        {"form": "présent → imparfait", "usage": "reporting a present statement", "example": "Il a dit : « Je suis fatigué. » → Il a dit qu'il était fatigué."},
+        {"form": "futur simple → conditionnel présent", "usage": "reporting a future statement", "example": "Elle a dit : « Je viendrai. » → Elle a dit qu'elle viendrait."},
+        {"form": "passé composé → plus-que-parfait", "usage": "reporting a past statement", "example": "Il a dit : « J'ai fini. » → Il a dit qu'il avait fini."}
+      ]
+    },
+    {
+      "id": "connecteurs_logiques",
+      "title": "Advanced Logical Connectors",
+      "explanation_en": "Used in formal speech and writing to link cause, consequence, and contrast with more nuance than basic 'parce que'/'mais'.",
+      "rules": [
+        {"form": "puisque", "usage": "cause already known to the listener", "example": "Puisque tu es là, aide-moi."},
+        {"form": "car", "usage": "formal 'because', used in writing to justify a statement", "example": "Il est resté chez lui, car il était malade."},
+        {"form": "pourtant / cependant", "usage": "'however/yet' (contrast)", "example": "Il pleuvait, pourtant elle est sortie."},
+        {"form": "en revanche / par contre", "usage": "'on the other hand'", "example": "Les prix ont baissé ; en revanche, la qualité aussi."},
+        {"form": "en effet", "usage": "'indeed' (confirming a prior statement)", "example": "Il fait froid ; en effet, il neige."},
+        {"form": "de ce fait / par conséquent", "usage": "'as a result/consequently'", "example": "Il a raté le train ; par conséquent, il est arrivé en retard."}
+      ]
+    },
+    {
+      "id": "negation_avancee",
+      "title": "Advanced Negation",
+      "explanation_en": "Negative structures beyond ne...pas, used to express 'never', 'nothing', 'no one', and 'only'.",
+      "rules": [
+        {"form": "ne ... plus", "usage": "no longer / not anymore", "example": "Je ne fume plus."},
+        {"form": "ne ... jamais", "usage": "never", "example": "Elle ne voyage jamais seule."},
+        {"form": "ne ... rien", "usage": "nothing", "example": "Il ne dit rien."},
+        {"form": "ne ... personne", "usage": "no one", "example": "Je ne vois personne."},
+        {"form": "ne ... que", "usage": "only (restrictive, not a true negation)", "example": "Il ne reste que deux jours."},
+        {"form": "ne ... ni ... ni", "usage": "neither...nor", "example": "Il n'aime ni le café ni le thé."}
+      ]
+    }
+  ]
+}

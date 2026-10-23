@@ -32,6 +32,13 @@ def get_grammar(level: CEFRLevel) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def get_daily_phrases() -> dict:
+    path = GRAMMAR_DIR / "daily_phrases.json"
+    if not path.exists():
+        raise AppError("No daily phrases data found")
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
 def generate_story(level: CEFRLevel, theme: str, length: StoryLength) -> dict:
     cache_key = hashlib.sha256(f"{level}:{theme}:{length}".encode()).hexdigest()[:16]
     cache_path = STORIES_CACHE_DIR / f"{cache_key}.json"

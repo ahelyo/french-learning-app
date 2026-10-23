@@ -1,0 +1,102 @@
+{
+  "level": "B1",
+  "topics": [
+    {
+      "id": "futur_simple",
+      "title": "Futur Simple",
+      "explanation_en": "Used for future events, predictions, and promises. Formed from the infinitive (dropping final -e for -RE verbs) + a fixed set of endings.",
+      "conjugation": {
+        "je": "parlerai", "tu": "parleras", "il/elle/on": "parlera",
+        "nous": "parlerons", "vous": "parlerez", "ils/elles": "parleront"
+      },
+      "rules": [
+        {"form": "infinitive + endings", "usage": "regular verbs", "example": "finir → je finirai; vendre → je vendrai"},
+        {"form": "être → ser-", "usage": "irregular stem", "example": "je serai, tu seras..."},
+        {"form": "avoir → aur-", "usage": "irregular stem", "example": "j'aurai, tu auras..."},
+        {"form": "aller → ir-", "usage": "irregular stem", "example": "j'irai, tu iras..."},
+        {"form": "faire → fer-", "usage": "irregular stem", "example": "je ferai, tu feras..."},
+        {"form": "venir → viendr-", "usage": "irregular stem", "example": "je viendrai, tu viendras..."},
+        {"form": "pouvoir → pourr-", "usage": "irregular stem", "example": "je pourrai, tu pourras..."},
+        {"form": "voir → verr-", "usage": "irregular stem", "example": "je verrai, tu verras..."}
+      ]
+    },
+    {
+      "id": "conditionnel_present",
+      "title": "Conditionnel Présent",
+      "explanation_en": "Used for polite requests, hypotheses, and advice ('would'). Formed from the same stem as the futur simple + imparfait endings.",
+      "conjugation": {
+        "je": "parlerais", "tu": "parlerais", "il/elle/on": "parlerait",
+        "nous": "parlerions", "vous": "parleriez", "ils/elles": "parleraient"
+      },
+      "rules": [
+        {"form": "futur stem + ais/ais/ait/ions/iez/aient", "usage": "all verbs", "example": "je voudrais (I would like), tu pourrais (you could)"},
+        {"form": "politeness formula", "usage": "softening requests", "example": "Je voudrais un café, s'il vous plaît."},
+        {"form": "si + imparfait, conditionnel", "usage": "hypothetical 'if' sentences (present/future unreal)", "example": "Si j'avais de l'argent, je voyagerais."}
+      ]
+    },
+    {
+      "id": "relative_pronouns",
+      "title": "Relative Pronouns: qui, que, où, dont",
+      "explanation_en": "Connect two clauses by referring back to a noun already mentioned.",
+      "rules": [
+        {"form": "qui", "usage": "subject of the relative clause (person or thing)", "example": "C'est l'homme qui habite ici."},
+        {"form": "que", "usage": "object of the relative clause", "example": "C'est le livre que je lis."},
+        {"form": "où", "usage": "place or time", "example": "C'est la ville où je suis né."},
+        {"form": "dont", "usage": "replaces 'de + noun' (possession, verbs with 'de')", "example": "C'est le film dont je parlais."}
+      ]
+    },
+    {
+      "id": "object_pronouns",
+      "title": "Direct & Indirect Object Pronouns",
+      "explanation_en": "Replace a previously mentioned noun to avoid repetition; placed before the conjugated verb (or before the infinitive in a two-verb construction).",
+      "rules": [
+        {"form": "le / la / les", "usage": "direct object (him/her/it/them)", "example": "Je le vois. (I see him/it.)"},
+        {"form": "lui / leur", "usage": "indirect object (to him/her / to them)", "example": "Je lui parle. (I speak to him/her.)"},
+        {"form": "me / te / nous / vous", "usage": "direct or indirect, 1st/2nd person", "example": "Il me voit. Il me parle."},
+        {"form": "order with two pronouns", "usage": "me/te/se/nous/vous before le/la/les, before lui/leur", "example": "Il me le donne. Il le lui donne."}
+      ]
+    },
+    {
+      "id": "y_en",
+      "title": "The Pronouns Y and EN",
+      "explanation_en": "Short pronouns that replace a previously mentioned place or a noun introduced by 'de'/a quantity.",
+      "rules": [
+        {"form": "y", "usage": "replaces à + place/thing", "example": "Tu vas à Paris ? Oui, j'y vais."},
+        {"form": "en", "usage": "replaces de + noun, or a quantity", "example": "Tu veux du café ? Oui, j'en veux. / J'en ai trois."}
+      ]
+    },
+    {
+      "id": "plus_que_parfait",
+      "title": "Plus-que-parfait (Pluperfect)",
+      "explanation_en": "Describes an action that happened before another past action ('had done'). Formed with the imparfait of avoir/être + past participle.",
+      "rules": [
+        {"form": "imparfait of avoir/être + past participle", "usage": "action completed before another past action", "example": "Quand je suis arrivé, elle était déjà partie. (...she had already left.)"}
+      ]
+    },
+    {
+      "id": "subjonctif_intro",
+      "title": "Subjonctif Présent — Introduction",
+      "explanation_en": "Used after expressions of necessity, will, emotion, and doubt, typically after 'que'. At B1, focus on common fixed expressions.",
+      "conjugation": {
+        "je": "parle", "tu": "parles", "il/elle/on": "parle",
+        "nous": "parlions", "vous": "parliez", "ils/elles": "parlent"
+      },
+      "rules": [
+        {"form": "il faut que + subjonctif", "usage": "necessity", "example": "Il faut que tu partes. (You must leave.)"},
+        {"form": "vouloir que + subjonctif", "usage": "wanting someone else to do something", "example": "Je veux que tu viennes."},
+        {"form": "être (irregular)", "usage": "que je sois, que tu sois, qu'il soit, que nous soyons, que vous soyez, qu'ils soient"},
+        {"form": "avoir (irregular)", "usage": "que j'aie, que tu aies, qu'il ait, que nous ayons, que vous ayez, qu'ils aient"}
+      ]
+    },
+    {
+      "id": "superlatives",
+      "title": "Superlatives",
+      "explanation_en": "Expressing 'the most/least' of a group.",
+      "rules": [
+        {"form": "le/la/les plus + adjective", "usage": "the most", "example": "C'est la ville la plus grande de France."},
+        {"form": "le/la/les moins + adjective", "usage": "the least", "example": "C'est l'option la moins chère."},
+        {"form": "le meilleur / le mieux", "usage": "irregular superlative of bon/bien", "example": "C'est le meilleur restaurant. Il chante le mieux."}
+      ]
+    }
+  ]
+}

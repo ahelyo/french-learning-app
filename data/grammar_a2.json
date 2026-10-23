@@ -1,0 +1,113 @@
+{
+  "level": "A2",
+  "topics": [
+    {
+      "id": "passe_compose",
+      "title": "Passé Composé (Past Tense)",
+      "explanation_en": "Used for completed past actions. Formed with avoir or être (auxiliary) + past participle. Most verbs use avoir; a fixed group of verbs of movement/state (the 'house of être' verbs) and all pronominal verbs use être.",
+      "rules": [
+        {"form": "avoir + past participle", "usage": "most verbs", "example": "J'ai mangé. (I ate.)"},
+        {"form": "être + past participle", "usage": "aller, venir, arriver, partir, entrer, sortir, monter, descendre, naître, mourir, rester, retourner, tomber, passer (+ pronominal verbs)", "example": "Elle est allée au marché. (She went to the market.)"},
+        {"form": "agreement with être", "usage": "past participle agrees in gender/number with the subject", "example": "Ils sont partis. / Elles sont parties."},
+        {"form": "-er → -é", "usage": "regular -ER past participle", "example": "parler → parlé"},
+        {"form": "-ir → -i", "usage": "regular -IR past participle", "example": "finir → fini"},
+        {"form": "-re → -u", "usage": "regular -RE past participle", "example": "vendre → vendu"}
+      ]
+    },
+    {
+      "id": "imparfait",
+      "title": "Imparfait (Imperfect Tense)",
+      "explanation_en": "Used for ongoing/habitual past actions, descriptions, and background in a story (contrasts with passé composé for completed events).",
+      "conjugation": {
+        "je": "parlais", "tu": "parlais", "il/elle/on": "parlait",
+        "nous": "parlions", "vous": "parliez", "ils/elles": "parlaient"
+      },
+      "rules": [
+        {"form": "stem", "usage": "nous-form of present tense minus -ons, + imparfait endings", "example": "nous parlons → parl- + ais/ais/ait/ions/iez/aient"},
+        {"form": "être (irregular stem)", "usage": "only verb with an irregular stem: ét-", "example": "j'étais, tu étais, il était..."}
+      ]
+    },
+    {
+      "id": "futur_proche",
+      "title": "Futur Proche (Near Future)",
+      "explanation_en": "The everyday way to talk about near-future plans, used far more often in speech than the futur simple.",
+      "rules": [
+        {"form": "aller (present) + infinitive", "usage": "going to do something", "example": "Je vais partir demain. (I'm going to leave tomorrow.)"}
+      ]
+    },
+    {
+      "id": "reflexive_verbs",
+      "title": "Reflexive (Pronominal) Verbs — Present Tense",
+      "explanation_en": "The subject performs the action on itself; needs a reflexive pronoun matching the subject.",
+      "conjugation": {
+        "je": "me lève", "tu": "te lèves", "il/elle/on": "se lève",
+        "nous": "nous levons", "vous": "vous levez", "ils/elles": "se lèvent"
+      },
+      "rules": [
+        {"form": "me/te/se/nous/vous/se", "usage": "reflexive pronoun placed before the verb", "example": "Je me lave. (I wash myself.)"}
+      ]
+    },
+    {
+      "id": "possessive_adjectives",
+      "title": "Possessive Adjectives",
+      "explanation_en": "Agree with the gender/number of the noun possessed, not the possessor.",
+      "rules": [
+        {"form": "mon / ma / mes", "usage": "my", "example": "mon frère, ma sœur, mes parents"},
+        {"form": "ton / ta / tes", "usage": "your (informal)", "example": "ton livre, ta voiture, tes amis"},
+        {"form": "son / sa / ses", "usage": "his/her/its", "example": "son chat, sa maison, ses enfants"},
+        {"form": "notre / nos", "usage": "our", "example": "notre ville, nos idées"},
+        {"form": "votre / vos", "usage": "your (formal/plural)", "example": "votre avis, vos questions"},
+        {"form": "leur / leurs", "usage": "their", "example": "leur projet, leurs amis"},
+        {"form": "mon ami(e)", "usage": "'ma' becomes 'mon' before a feminine word starting with a vowel sound", "example": "mon amie (not ma amie)"}
+      ]
+    },
+    {
+      "id": "demonstrative_adjectives",
+      "title": "Demonstrative Adjectives",
+      "explanation_en": "'This/that' — point to a specific noun.",
+      "rules": [
+        {"form": "ce", "usage": "masculine singular", "example": "ce livre"},
+        {"form": "cet", "usage": "masculine singular before a vowel sound", "example": "cet homme"},
+        {"form": "cette", "usage": "feminine singular", "example": "cette table"},
+        {"form": "ces", "usage": "plural (masc. or fem.)", "example": "ces livres, ces tables"}
+      ]
+    },
+    {
+      "id": "partitive_articles",
+      "title": "Partitive Articles (\"Some/Any\")",
+      "explanation_en": "Used for an unspecified quantity of something, common with food and drink.",
+      "rules": [
+        {"form": "du", "usage": "masculine singular", "example": "du pain (some bread)"},
+        {"form": "de la", "usage": "feminine singular", "example": "de la confiture (some jam)"},
+        {"form": "de l'", "usage": "singular before a vowel sound", "example": "de l'eau (some water)"},
+        {"form": "des", "usage": "plural", "example": "des fraises (some strawberries)"},
+        {"form": "de / d'", "usage": "after a negation, replaces du/de la/des", "example": "Je ne mange pas de viande."}
+      ]
+    },
+    {
+      "id": "comparatives",
+      "title": "Comparatives",
+      "explanation_en": "Comparing two things using an adjective or adverb.",
+      "rules": [
+        {"form": "plus ... que", "usage": "more ... than", "example": "Elle est plus grande que moi."},
+        {"form": "moins ... que", "usage": "less ... than", "example": "Il est moins rapide que toi."},
+        {"form": "aussi ... que", "usage": "as ... as", "example": "C'est aussi cher que l'autre."},
+        {"form": "meilleur(e) que", "usage": "irregular comparative of bon (good)", "example": "Ce café est meilleur que l'autre."}
+      ]
+    },
+    {
+      "id": "numbers_21_100",
+      "title": "Numbers 21–100",
+      "explanation_en": "Compound numbers; note the 'et' before un at 21, 31, 41, 51, 61, 71, and the vigesimal (base-20) pattern from 80.",
+      "rules": [
+        {"form": "vingt et un", "usage": "21"}, {"form": "vingt-deux", "usage": "22"},
+        {"form": "trente", "usage": "30"}, {"form": "quarante", "usage": "40"},
+        {"form": "cinquante", "usage": "50"}, {"form": "soixante", "usage": "60"},
+        {"form": "soixante-dix", "usage": "70"}, {"form": "soixante et onze", "usage": "71"},
+        {"form": "quatre-vingts", "usage": "80"}, {"form": "quatre-vingt-un", "usage": "81"},
+        {"form": "quatre-vingt-dix", "usage": "90"}, {"form": "quatre-vingt-onze", "usage": "91"},
+        {"form": "cent", "usage": "100"}
+      ]
+    }
+  ]
+}

@@ -78,6 +78,31 @@ st.markdown(
         color: var(--cream) !important;
     }
 
+    /* Radio groups (e.g. Education mode switch) — same dashed-pill treatment as tabs */
+    [data-testid="stRadioGroup"] { gap: 10px !important; flex-wrap: wrap; }
+    [data-testid="stRadioOption"] {
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        border: 1.5px dashed var(--ink) !important;
+        border-radius: 10px !important;
+        background: #FFFFFF !important;
+        padding: 8px 18px !important;
+        margin: 0 !important;
+        cursor: pointer;
+    }
+    [data-testid="stRadioOption"] > div > div:not([data-testid="stMarkdownContainer"]) {
+        display: none !important;
+    }
+    [data-testid="stRadioOption"][data-selected="true"] {
+        background: var(--ink) !important;
+        border-style: solid !important;
+    }
+    [data-testid="stRadioOption"][data-selected="true"] p,
+    [data-testid="stRadioOption"][data-selected="true"] span,
+    [data-testid="stRadioOption"][data-selected="true"] div {
+        color: var(--cream) !important;
+    }
+
     /* Inputs */
     [data-testid="stTextInput"] input, [data-testid="stTextArea"] textarea,
     [data-baseweb="select"] > div, [data-testid="stNumberInput"] input {
@@ -176,6 +201,12 @@ CHAT_ICON = (
     '<circle cx="8" cy="11.5" r="0.9" fill="#121212" stroke="none"/>'
     '<circle cx="12" cy="11.5" r="0.9" fill="#121212" stroke="none"/>'
     '<circle cx="16" cy="11.5" r="0.9" fill="#121212" stroke="none"/></svg>'
+)
+GRADUATION_ICON = (
+    f'<svg width="24" height="24" viewBox="0 0 24 24" {_ICON_STROKE}>'
+    '<path d="M2 8L12 3L22 8L12 13L2 8Z"/>'
+    '<path d="M6 10.5V15.5C6 15.5 8.5 17.5 12 17.5C15.5 17.5 18 15.5 18 15.5V10.5"/>'
+    '<path d="M22 8V14"/></svg>'
 )
 
 ACCENT = "#AEC2F0"
@@ -317,8 +348,8 @@ st.markdown("\n".join(line.strip() for line in _hero_html.splitlines()), unsafe_
 
 LEVELS = ["A1", "A2", "B1", "B2"]
 
-tab_reading, tab_writing, tab_chat, tab_library = st.tabs(
-    ["📖 Reading", "✍️ Writing", "💬 Chat", "📚 Library"]
+tab_reading, tab_writing, tab_chat, tab_library, tab_education = st.tabs(
+    ["📖 Reading", "✍️ Writing", "💬 Chat", "📚 Library", "🎓 Education"]
 )
 
 with tab_reading:
@@ -527,3 +558,67 @@ with tab_library:
                                     st.rerun()
                                 except core.AppError as exc:
                                     st.error(f"Error: {exc}")
+
+with tab_education:
+    module_header(
+        GRADUATION_ICON, "#AEC2F0", "Education",
+        "Grammar reference and everyday phrases — curated, not AI-generated, so it's always accurate and free.",
+    )
+
+    edu_mode = st.radio(
+        "What do you want to review?",
+        ["Grammar reference", "Daily phrases"],
+        key="edu_mode",
+        horizontal=True,
+    )
+
+    if edu_mode == "Grammar reference":
+        with st.container(border=True):
+            edu_level = st.selectbox("CEFR level", LEVELS, key="edu_grammar_level")
+            try:
+                grammar = core.get_grammar(edu_level)
+            except core.AppError as exc:
+                st.error(f"Error: {exc}")
+                grammar = None
+
+        if grammar:
+            for topic in grammar["topics"]:
+                with st.expander(topic["title"]):
+                    st.write(topic["explanation_en"])
+
+                    conjugation = topic.get("conjugation")
+                    if conjugation:
+                        st.markdown("##### Conjugation")
+                        for pronoun, form in conjugation.items():
+                            st.markdown(f"- **{pronoun}** {form}")
+
+                    rules = topic.get("rules")
+                    if rules:
+                        st.markdown("##### Rules & Examples")
+                        for rule in rules:
+                            line = f"- **{rule['form']}**"
+                            if rule.get("usage"):
+                                line += f" — {rule['usage']}"
+                            if rule.get("example"):
+                                line += f"  \n  _{rule['example']}_"
+                            st.markdown(line)
+    else:
+        with st.container(border=True):
+            try:
+                phrases_data = core.get_daily_phrases()
+            except core.AppError as exc:
+                st.error(f"Error: {exc}")
+                phrases_data = None
+
+            if phrases_data:
+                category_titles = [c["title"] for c in phrases_data["categories"]]
+                edu_category = st.selectbox("Category", category_titles, key="edu_phrase_category")
+
+        if phrases_data:
+            category = next(c for c in phrases_data["categories"] if c["title"] == edu_category)
+            with st.container(border=True):
+                for phrase in category["phrases"]:
+                    line = f"**{phrase['fr']}** — {phrase['en']}"
+                    st.markdown(line)
+                    if phrase.get("note"):
+                        st.caption(phrase["note"])
