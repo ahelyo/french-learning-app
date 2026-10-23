@@ -1,9 +1,10 @@
 fastapi==0.161.1
 uvicorn[standard]==0.30.6
-pydantic==2.9.2
-pydantic-settings==2.5.2
+pydantic>=2.9
+pydantic-settings>=2.5
 ollama==0.3.3
-faster-whisper==1.0.3
+faster-whisper>=1.2.1
+av==15.1.0
 edge-tts==7.3.1
 streamlit==1.66.1
 requests==2.32.3
